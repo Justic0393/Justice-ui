@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #1E1E30;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #151521;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hire-me-btn {
+    background-color: #6B4CE6;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.intro-text h1 {
+    font-size: 48px;
+}
+
+.intro-text h2 {
+    font-size: 32px;
+    color: #6B4CE6;
+}
+
+.intro-text p {
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+.stats {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.stats div {
+    text-align: center;
+}
+
+.intro-image img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.services {
+    padding: 50px 0;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: #2A2A42;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.experience-education {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.skills {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skill-set {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.contact {
+    padding: 50px 0;
+}
+
+.contact form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.contact form input, 
+.contact form textarea, 
+.contact form button {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #2A2A42;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #151521;
+}
